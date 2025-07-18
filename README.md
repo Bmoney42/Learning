@@ -55,22 +55,58 @@ Password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 **Level 5 --> Level 6**
 
+inside the level they gave you some clues, like how large the file was 1033 bytes so I searched the system for a file with 1033 btyes
+
 ```bash
-
-
+find / -type f -size 1033c
 ```
 
 Password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
-Level 7
+**level 6 --> Level 7**
+Same as before but expanded to -user and -group 
 
-Level 8
+```bash
+find / -type f -size 33c -user brandit7 -group bandit6
+```
+Password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
-Level 9
+**level 7 --> Level 8**
 
-Level 10
+We had to use grep to find a string within a file to find the password:
 
-level 11
+
+```bash
+ grep "millionth" data.txt
+```
+Password: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+**Level 8 --> Level 9**
+
+Sort And Find Uniq Lines 
+
+```bash
+sort data.txt | uniq -u 
+```
+
+Password: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+**Level 9 --> Level 10**
+only shows readable human data
+
+```bash
+strings data.txt
+```
+password: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+**Level 10 --> level 11**
+
+We are looking for decode the base64 data  in data.txt
+
+```bash
+base64 -d data.txt
+```
+Password: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 
 Level 12
 
