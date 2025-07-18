@@ -108,6 +108,14 @@ base64 -d data.txt
 ```
 Password: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 
-Level 12
+**Level 11 --> Level 12**
 
-Level 13
+```bash
+
+```
+
+**Level 12 --> Level 13**
+
+```bash
+
+```
