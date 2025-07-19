@@ -110,9 +110,12 @@ Password: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 
 **Level 11 --> Level 12**
 
-```bash
+I had to use rot13 to tr (transform) circles to 13 spaces over and wordwrap the letters from N-Z and then A-m (N-ZA-M)
 
+```bash
+strings data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 ```
+Password: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 
 **Level 12 --> Level 13**
 
