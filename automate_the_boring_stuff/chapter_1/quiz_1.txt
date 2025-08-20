@@ -1,0 +1,78 @@
+ 1.  Which of the following are operators, and which are values?
+
+'hello'  
+A: Value
+
+-88.8 
+A: Value
+
+- 
+A: Operator
+
+/ 
+A: Operator
+
++ 
+A: Operator
+
+5 
+A: Value
+  
+
+2.  Which of the following is a variable, and which is a string?
+
+spam 
+A: variable
+
+'spam'
+A: String
+ 
+3.  Name three data types.
+
+A: String, Integer, float
+
+4.  What is an expression made up of? What do all expressions do? 
+
+A: Value and operator
+
+5.  This chapter introduced assignment statements, like spam = 10. What is the difference between an expression and a statement?
+
+A:
+Expression: evaluates to a value; can appear inside statements.
+
+Statement: performs an action (e.g., assignment) and doesn’t itself produce a value you can use. In the REPL, expressions display their value, but that display isn’t what makes them expressions.
+
+
+6.  What does the variable bacon contain after the following code runs?
+
+bacon = 20
+bacon + 1
+
+A: 20 ( the variables doesn't change) 
+
+7.  What should the following two expressions evaluate to?
+
+'spam' + 'spamspam'
+'spam' * 3
+
+A: spamspamspam
+
+8.  Why is eggs a valid variable name while 100 is invalid?
+
+A: because variables can't start with a number. 
+
+9.  What three functions can be used to get the integer, floating-point number, or string version of a value?
+
+A:str(), float(), int()
+
+10.  Why does this expression cause an error? How can you fix it?
+
+'I eat ' + 99 + ' burritos.'
+
+A: you cant Concatenation numbers with strings 
+'I eat ' + str(99) + ' burritos.'
+
+Extra credit: Search online for the Python documentation for the len() function. It will be on a web page titled “Built-in Functions.” Skim the list of other functions Python has, look up what the bin() and hex() functions do, and experiment with them in the interactive shell.
+
+
+
