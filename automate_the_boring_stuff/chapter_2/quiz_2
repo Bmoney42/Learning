@@ -2,38 +2,86 @@ Practice Questions:
 
 
 1.  What are the two values of the Boolean data type? How do you write them?
+True Vs False 
 
 2.  What are the three Boolean operators?
 
+and, or, not
+
 3.  Write out the truth tables of each Boolean operator (that is, every possible combination of Boolean values for the operator and what they evaluate to).
+A	B	A and B
+True	True	True
+True	False	False
+False	True	False
+False	False	False
+
+or operator
+
+A	B	A or B
+True	True	True
+True	False	True
+False	True	True
+False	False	False
+
+not operator
+
+A	not A
+True	False
+False	True
 
 4.  What do the following expressions evaluate to?
 
 (5 > 4) and (3 == 5)
-not (5 > 4)
-(5 > 4) or (3 == 5)
-not ((5 > 4) or (3 == 5))
-(True and True) and (True == False)
-(not False) or (not True)
+false
 
+not (5 > 4)
+false
+
+(5 > 4) or (3 == 5)
+true
+
+not ((5 > 4) or (3 == 5))
+false
+
+(True and True) and (True == False)
+false
+
+(not False) or (not True)
+true
 5.  What are the six comparison operators?
+
+>, <, !=,  >= <=, == 
 
 6.  What is the difference between the equal to operator and the assignment operator?
 
+one compares and the other assigns to a varaible. 
+
 7.  Explain what a condition is and where you would use one.
+
+A Condition Is Used In An If/Else Statement And When You Need Different Things To Happen 
 
 8.  Identify the three blocks in this code:
 
 spam = 0
-if spam == 10:
+if spam == 10: - Block 1 
     print('eggs')
-    if spam > 5:
+    if spam > 5:Block 2 
        print('bacon')
-    else:
+    else: Block 3
         print('ham')
     print('spam')
 print('Done')
 
 
 9.  Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.
+
+spam = 0
+if spam == 1: 
+    print('Hello')
+elif spam  == 2:
+       print('Howdy')
+else: 
+    print('Greetings!')
+print('Done')
+
 
