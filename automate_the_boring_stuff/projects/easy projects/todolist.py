@@ -1,3 +1,5 @@
+import os 
+import sys
 todo = []
 
 def clear_screen():
