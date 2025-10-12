@@ -193,4 +193,52 @@ ipvp6 - 128 bit
 first 64 used for network prefix 
 last 64 used for network address 
 
+default gateway - the router that allows you to communicate outside of our local subnet
+ - the local gateway must be an IP address on the local subnet
+
+Subnet mask - 255.255.255.0
+   - used by the local device to determine what subnet it's on ( the subnet isnt usually transmitted across the network) 
+   - what is the subnet of this network?
+
+Ip Address - 192.168.1.10
+ -every device needs a unique IP
+
+ Manaully Setting Up Device isnt a good thing its not scalable
+ but using DHCP to reserve your IP address is
+
+ APIPA ( Automatic PRivate IP Addressing) - if you are assigned this IP trouble shoot your DHCP server why its not assigning APIPA IP 
+ an ipv4 - link -local address
+  -  no forwarding by router
+  -  169.254.0.0 through 169.254.254.255
+
+
+Networks:
+
+LAN - LOCAL AREA NETWORK - Faster
+WAN - WIDE AREA NETWORK - Slower , Point to Point serial Connections, Multi protocol Label Switching ( MPLs), Terrestrial or non-Terristrial (Satelite ) 
+PAN - PERSONAL Area Network (Private network, Bluetooth, IR, NFC) 
+SAN - Storage Area Network - Feels and looks like Local Storage device , Block-Level , Very effient reading and writing 
+WLAN - Wireless Area Network 
+
+
+LCD - Liquid Crystal Displays
+  + Light Weigh
+  + Relatively low power and low expense.
+  - requires back light, bad with TRUE black
+LCD / LN (twisted Nematic)
+   + Fast response time, poor viewing angels 
+LCD / IPS ( In Plane Switching)
+   + excellent color, More expensive
+LCD / VA ( Vertical Alignment)
+   + Good Compromise Between the two
+   + good color / slowr response time
+
+
+OLED - Organic Light Emitting Diode 
+   + no backlight
+   + thinner and lighter
+
+
+Mini LED - Much Smaller diodes, 
+Touch Screen - digital response by touch
 
