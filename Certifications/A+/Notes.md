@@ -182,3 +182,15 @@ Power Over Ethernet ( POE )
         - Ethernet Wireless, WAN, 
         - Each Port Has its Own Mac Address
 
+
+   IP - are layer 3 osi 
+private addresses - 
+10. class A 
+172. - class B 
+192. - class C 
+
+ipvp6 - 128 bit 
+first 64 used for network prefix 
+last 64 used for network address 
+
+
