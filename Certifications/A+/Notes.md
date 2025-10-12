@@ -163,4 +163,17 @@ Power Over Ethernet ( POE )
    - Access Points
         - Built In Power - Endspan
         - in-line / adapter - midspan
+    -POE - 15.4 watt DC 350 mA
+    -POE+ - 25.5 Watt DC 600 mA 
+    -POE++ - 51 Watt Type 3 600 mA
+             71.3 Watt Type 4 960 mA
+          - POE With 10GBBASE-T
+         
+   Broadband - Cable Modem 1Gb+ Speed
+    - Transmission From Different Freq 
+    - Data on The "Cable" Network DOCSIS Data Over Cable Service Interface Spec.
+
+    DLS Digital Subscriber Line 
+
+    Fiber 
     
