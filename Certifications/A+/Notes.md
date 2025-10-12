@@ -28,6 +28,98 @@ NFC ( Near Field Communication )
 4 cm or less
 used To Authenication without typing a password
 
+Hotspot Vs Tethering 
+- Hotspot - Multiple Devices
+- Tethering - 1 Device 
+
+Wired Devices: 
+USB Connection Are Common On Laptaps
+3.5mm or TRRS ( Tip Ring Ring Sleeve) Analog Plug (Old School)
+
+Wireless Networks 
+3G - Introduced In 1988
+Upgraded Data Connectivity 
+- Allowed For GPS, Mobile televison, Video Conferencing 
+4g
+- LTE Long Term Evolution
+Based On GSM ( Global System For Mobile Communication )
+EDGE ( Enhanced Data Rates For GSM Evolution)
+Supports Rates Fo 150MB+
+- LTE - A Advanced 
+Supports 300mbit/sec +
+
+5g - 2020 
+Higher Frequency 
+10gb/sec 
+Start Of The IOT 
+- Bandwith Isnt A Constraint
+- Larger Data Transfers
+
+SIM - Subcriber Idenity Module  
+- Tracks ID and Number
+- Cellular Network
+- Can Store Contacts and Messages
+
+Esims Are Not Physical Can Be Transfered With QR Code Or Data Transfer
+
+MDM - Mobile Device Manager
+- Can Control the Device, Functions, Security, Data, And Other Functions
+   - BOYD - Bring Your Own Device
+   - COPE - Corporate Owned, Personally Enabled
+   - CYOD - Choose Your Own Device
+- Can Contrl Email Config
+- Enable 2 Factor Auth
+
+MultiPlexing Refers To Using Many Different Applications At The Same Time. 
+- TCP And UDP
+
+Connection-Orientated Protocols - Prefers Return Receipt 
+- TCP = Transmission Control Protocol ( Connection Orientated, Formal Set Up And Close)
+   - Reliable Delivery ( recover from errors)
+   - Flow Control ( how much data is sent)
+- HTTPS - Hyper Transfer Protocol Secure) 
+- SSH ( Secure Shell ) 
+
+**Connectionless Protocol**
+   
+- UDP  = User Datagram Protocol ( Real-Time Communication) 
+   - UNreliable Delivery ( No Error Recovery )
+   - No Flow Control
+  - DHCP ( Dynamic Host Config Protocol 
+  - TFTP ( Trivial File Transfer Protocol)
+     - Application Keeps Track Of The Data and Devices What To Do 
+
+Ports can be between 0 and 65,535
+- Well Known Port Numbers To Connect With A Well Known Service.
+
+TCP Port 80 Is Not The Same As UDP Port 80
+Common Ports:
+TCP/20/FTP ( Active mode data) 
+TCP/21/FTP ( Control) 
+- File Transfer between Systems
+- Authoication Or Anonymous login
+- Full Feature Functionablity
+   - Add, List, Delete, etc
+
+TCP/22/SSH 
+  - Looks And Acts Like Telnet
+TCP/23/Telnet  Telecommunication Network
+  - No Encription All In The Clear
+
+TCP/25/ Simple Mail Transfer Protocol 
+  - Server To Server Email
+  - To Receive And Send We Use (IMAP, Pop3)
+
+DNS - Domain Name Service 
+Transfers IP's Into Names 
+  UDP/53 
+
+DHCP  - Dynamic Host Config Protol 
+Automated Config Of IP Addresses, Subnet Mask, And Other Options 
+UDP/67 UDP/68
+  
+ 
+
 
 
 
