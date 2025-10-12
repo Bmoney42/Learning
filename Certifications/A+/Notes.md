@@ -119,7 +119,32 @@ Automated Config Of IP Addresses, Subnet Mask, And Other Options
 UDP/67 UDP/68
   
  
+Routers: Layer 3 Switches
+ - Routes traffic between subnets
+ - connects LAN, WAN, Fiber, Copper
 
+Switch : 
+   - Bridges done in hardware
+   - ACIS ( Application specific integrated circuit)
+   - fowards traffic based on data link address (MAC ADDRESS)
+   - POE - Power Over Ethernet (power devices then themselves)
 
+   unmanaged Switched
+      - Plug and Play
+      - Fixed Config  / No VLan
+      - Very Little intregration with other devices
+      - no logs
+      - Cheaper
+   
+   managed switched
+      - Vlan Support
+      - Traffic prioritization 
+      - redunancy support
+      - port mirroring (monitoring port)
 
+   Access point: ( not a wireless router)
+    - Takes A wired device and makes it wireless
+    - a wireless router is both a router and an access point ( Extends the wired network onto a wireless network) 
+    - bridges communication - makes decision based on MAC address
+    
 
