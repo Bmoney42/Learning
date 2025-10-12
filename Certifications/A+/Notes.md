@@ -147,4 +147,20 @@ Switch :
     - a wireless router is both a router and an access point ( Extends the wired network onto a wireless network) 
     - bridges communication - makes decision based on MAC address
     
+   Patch Panel Allows for connectiviity to another switch or Vlan without moving the extended connection from the desk to the closet.
 
+   Firewall - 
+    - OSI Layer 4 TCP/UDP 
+    - Some Firewalls can filter by application - Next Gen Firewalls
+    - Can Encrypt in/out of the network (Protect traffic)
+    - Can Act As Proxy 
+    - Most Firewalls Can be Layer 3 Devices (Routers)
+
+Power Over Ethernet ( POE )
+   - Smart Cameras (Ring)
+   - Nests
+   - Google Wifi
+   - Access Points
+        - Built In Power - Endspan
+        - in-line / adapter - midspan
+    
