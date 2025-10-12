@@ -171,9 +171,14 @@ Power Over Ethernet ( POE )
          
    Broadband - Cable Modem 1Gb+ Speed
     - Transmission From Different Freq 
-    - Data on The "Cable" Network DOCSIS Data Over Cable Service Interface Spec.
-
-    DLS Digital Subscriber Line 
-
-    Fiber 
+    - Data on The "Cable" Network DOCSIS Data Over Cable Service Interface Spec. 
     
+    
+   DLS Digital Subscriber Line 
+
+   ONT Fiber Optical Network Terminal 
+
+   NIC - Network Interface Card.(network card hardware)
+        - Ethernet Wireless, WAN, 
+        - Each Port Has its Own Mac Address
+
