@@ -242,3 +242,14 @@ OLED - Organic Light Emitting Diode
 Mini LED - Much Smaller diodes, 
 Touch Screen - digital response by touch
 
+Memory Parity 
+error correct code - can correct itself. 
+
+CPU to Ram throughput 
+ Measured in MT's 
+ Megatransfers - Millions transfered per second. 
+
+ Type 1 = Bare Metal ( no foundation OS)
+ type 2 = Hosted ( main OS = windows, IOS, etc) 
+ 
+
